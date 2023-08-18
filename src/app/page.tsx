@@ -1,9 +1,14 @@
 import Image from 'next/image'
+import Carousel from './components/Carousel'
 
-export default function Home() {
+export default async function Home() {
+
   return (
    <>
-      <h1 className='text-7xl'>Hello</h1>   
+
+   {/* product section */}
+      <Carousel/>
+      
    </>
   )
 }
