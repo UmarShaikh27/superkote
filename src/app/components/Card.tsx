@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default function Card(props) {
+interface Cardprops {
+  title: string;
+  desc: string;
+  fig: string; //
+}
+
+export default function Card(props : Cardprops) {
   return (
       <div className="lg:m-4 m-2 bg-gray-100">
         <a className="block relative h-48 overflow-hidden">
