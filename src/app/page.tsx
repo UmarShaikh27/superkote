@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Carousel from './components/Carousel'
-import Cards from './components/Cards'
+import Maincards from './components/Maincards'
 
 export default async function Home() {
 
@@ -8,7 +8,7 @@ export default async function Home() {
    <>
 
       <Carousel/>
-      <Cards/>
+      <Maincards/>
       
    </>
   )
